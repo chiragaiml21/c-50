@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(){
+    char a;
+    printf("Enter the character : ");
+    scanf("%c", &a);
+    if(a=='a' || a=='e' || a=='i' || a=='o' || a=='u')
+    printf("%c is a vowel", a);
+    else if(a=='A' || a=='E' || a=='I' || a=='O' || a=='U')
+    printf("%c is a vowel", a);
+    else if(a>='0' && a<='9')
+    printf("%c is a digit", a);
+    else{
+        printf("%c is consonent", a);
+    }
+    return 0;
+}
