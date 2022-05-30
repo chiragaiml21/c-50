@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    char str[]={"C programming"};
+    int k, length;
+    
+    k = sizeof(str)/sizeof(str[0]);
+    length = k-1;
+    
+    printf("The length of string is %d", length);
+
+    return 0;
+}
+
