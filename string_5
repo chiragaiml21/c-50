@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    char a[]={"hello"};
+    char b[100]={""};
+    
+    for(int i=0; a[i]; i++){
+        b[i]=a[i];
+    }
+    
+    printf("string b %s", b);
+
+    return 0;
+}
+
+
