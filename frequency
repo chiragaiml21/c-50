@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    float wavelength, speed=300000000, frequency;
+    printf("Enter the wavelength : ");
+    scanf("%f", &wavelength);
+    
+    frequency=speed/wavelength;
+    
+    printf("Frequency : %.2f", frequency);
+    
+    return 0;
+}
+
