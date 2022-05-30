@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main()
+{
+    int num, x=0, i;
+    printf("Enter the number : ");
+    scanf("%d", &num);
+    
+    for(i=1; i<=num; i++){
+        if(num!=1 && num%i==0){
+            x = x+1;
+        }
+        else if(num==1){
+            x = 2;
+        }
+        
+    }
+    if(x==2){
+        printf("Prime number");
+    }
+    else{
+        printf("no");
+    }
+    return 0;
+}
