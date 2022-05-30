@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    char a[]={"Hello"};
+    char b[]={"hello"};
+    int k;
+    
+    k = strcmp(a,b);
+    
+    printf("%d", k);
+
+    return 0;
+}
+
