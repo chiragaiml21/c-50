@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    int a;
+    float out;
+    printf("Enter the value of a : ");
+    scanf("%d", &a);
+out = sqrt(a);
+    printf("%f", out);
+
+    return 0;
+}
