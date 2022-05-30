@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(){
+    
+int a=5;
+int *p=&a;
+
+printf("%x\n", &a);
+printf("%x\n", p);
+printf("%p", *p);
+
+
+    return 0;
+}
